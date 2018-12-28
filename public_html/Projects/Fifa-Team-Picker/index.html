@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+    FIFA Team Decider, HTML Version
+    Created by Jacob Hagenbaugh
+    Created on Nov. 30th, 2018
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>Fifa Team Decider</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script> 
+    </head>
+    <body>
+            <div class="heading">
+                <h1>FIFA Team Picker</h1>
+                <p>Created by: Jacob Hagenbaugh</p>
+            </div>
+            <div class="input">
+                <form>
+                    <label>Player 1 : </label><input id="player1-input" type="text" /><br>
+                    <label>Player 2 : </label><input id="player2-input" type="text" />
+                </form>
+                <input class="input-button" type="submit" onclick="getPlayers();">
+                <button onclick="location.reload();" class="refresh-button">Clear</button>
+            </div>
+            <br>
+            <div class="output">
+                <span id='player1'></span><br>
+                <span id='player2'></span>
+            </div>
+    </body>
+</html>

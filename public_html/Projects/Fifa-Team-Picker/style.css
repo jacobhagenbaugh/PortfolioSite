@@ -1,0 +1,61 @@
+/* 
+    Style sheet for Fifa Team Decider.
+    Created on : Nov 30, 2018, 1:09:33 AM
+    Author     : Jacob Hagenbaugh
+*/
+
+body {
+    background-color: #001f3f;
+    margin: 0;
+}
+
+.output {
+    color: #7FDBFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-button {
+    background-color: steelblue;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.heading {
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 0px 3px 0px #444444;
+}
+
+.heading h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.heading p {
+    background-color: darkslategray;
+}
+
+.refresh-button {
+    background-color: darkslategray;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
