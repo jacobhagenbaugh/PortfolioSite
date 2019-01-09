@@ -13,6 +13,7 @@ html {
 
 body {
     margin: 0;
+    background-color: transparent;
 }
 
 .header {
@@ -63,4 +64,21 @@ body {
     float: right;
     color: white;
     font-size: 40px;
+}
+
+/*
+=================================
+    START PROJECTS PAGE
+=================================
+*/
+
+.projects-container {
+    width: 80%;
+    background-color: #4CAF50;
+}
+
+.projects-item {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
 }
